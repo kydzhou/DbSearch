@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="light_warm_red">#CCFF6347</color>
+    <color name="warm_red">#FF6347</color>
+    <color name="dark_warm_red">#FF6347</color>
+    <color name="grey" >#ffbebebe</color>
+    <color name="dark_grey">#FF080808</color>
+    <color name="light_grey">#ffbebebe</color>
+    <color name="light_grey_1">#FFEEEEEE</color>
+    <color name="sea_green">#FF43CD80</color>
+    <color name="sea_green_1">#FF2E8B57</color>
+
+    <color name="main_color">@color/warm_red</color>
+    <color name="dark_main_color">@color/dark_warm_red</color>
+
+    <color name="drawer_scrim_color">#88eeeeee</color>
+    <color name="action_bar_title_color">@android:color/white</color>
+    <color name="window_background">@android:color/white</color>
+</resources>

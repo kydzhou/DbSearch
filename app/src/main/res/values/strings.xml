@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">豆瓣收藏</string>
+    <string name="clear">清除记录</string>
+    <string name="about">关于</string>
+    <string name="exit">退出</string>
+    <string name="details">查看详细</string>
+    <string name="search">搜索</string>
+    <string name="search_by_name">输入名称搜索</string>
+    <string name="other">其他</string>
+    <string name="book">图书</string>
+    <string name="music">音乐</string>
+    <string name="movie">电影</string>
+    <string name="apibook">https://api.douban.com/v2/book/search?q=</string>
+    <string name="apimusic">https://api.douban.com/v2/music/search?q=</string>
+    <string name="apimovie">https://api.douban.com/v2/movie/search?q=</string>
+    <array name="drawer_content">
+        <item>图书</item>
+        <item>音乐</item>
+        <item>电影</item>
+    </array>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+</resources>

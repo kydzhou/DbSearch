@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar_layout" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:theme="@style/NotesItemTheme"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/class_pic"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:scaleType="fitCenter"
+                android:padding="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/label_title_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:textColor="?android:textColorPrimary"/>
+            <TextView
+                android:id="@+id/label_author_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:textSize="@dimen/abc_text_size_medium_material"
+                android:textColor="?android:textColorSecondary" />
+            </LinearLayout>
+        </LinearLayout>
+            <TextView
+                android:id="@+id/label_content_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/abc_text_size_body_1_material"
+                android:textColor="?android:textColorPrimary"/>
+        </LinearLayout>
+        <include layout="@layout/toolbar_shadow_layout"/>
+    </FrameLayout>
+
+</LinearLayout>
